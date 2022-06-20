@@ -1,8 +1,8 @@
 {
-    'name': 'maitehnmaritimo',
+    'name': 'miuhongos',
     'version': '13.0.0.0',
     'category': 'Tools',
-    'summary': "Proyecto maitehnmaritimo",
+    'summary': "Proyecto miuhongos",
     'author': 'Sdeh',
     'depends': [
         'base',
@@ -30,7 +30,7 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/sistemasdehudson/cl-maitehnmaritimo',
+        'https://github.com/sistemasdehudson/cl-miuhongos',
         'https://github.com/regaby/odoo-custom.git',
         ##'https://github.com/regaby/l10n_ar_fe_qr',
         'https://github.com/regaby/l10n_ar_fe_qr ctmil/l10n_ar_fe_qr',
@@ -46,7 +46,7 @@
         'https://github.com/ingadhoc/sale.git',
         'https://github.com/ingadhoc/stock.git',
         'https://github.com/ingadhoc/aeroo_reports.git',
-        'https://github.com/ingadhoc/website.git',
+        ##'https://github.com/ingadhoc/website.git',
         'https://github.com/OCA/account-financial-reporting.git',
         'https://github.com/OCA/reporting-engine.git',
         'https://github.com/OCA/server-ux.git',
@@ -54,7 +54,7 @@
         'https://github.com/OCA/sale-workflow.git',
         'https://github.com/OCA/web.git',
         ##
-        'https://github.com/ctmil/contract.git',
+        ##'https://github.com/ctmil/contract.git',
         'https://github.com/CybroOdoo/CybroAddons.git',
         'https://github.com/itpp-labs/pos-addons.git',
         'https://github.com/odoomates/odooapps.git',
@@ -67,6 +67,15 @@
         ##'https://github.com/oca/report-print-send/tree/13.0',
         'https://github.com/OCA/report-print-send.git',
         'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
+        'https://github.com/OCA/contract.git -b 13.0',
+        'https://github.com/odoomates/odooapps.git -b 13.0',
+        'https://github.com/OCA/project -b 13.0',
+        'https://github.com/ingadhoc/purchase -b 13.0',
+        'https://github.com/ingadhoc/product -b 13.0',
+        'https://github.com/ingadhoc/website -b 13.0',
+        'https://github.com/OCA/project-reporting -b 13.0',
+        'https://github.com/OCA/purchase-workflow -b 13.0',
+        'https://github.com/OCA/delivery-carrier -b 13.0',
     ],
 
     'docker-images': [
