@@ -77,6 +77,7 @@
         'https://github.com/OCA/purchase-workflow -b 13.0',
         'https://github.com/OCA/delivery-carrier -b 13.0',
         'https://github.com/OCA/manufacture -b 13.0',
+        'https://github.com/OCA/bank-statement-import -b 13.0',
     ],
 
     'docker-images': [
